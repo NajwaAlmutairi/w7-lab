@@ -87,9 +87,6 @@ function App() {
                   <hr />
                   <h1 className='text-center'>{item.name}</h1>
                   <div className='flex justify-center items-center gap-2 pt-3 pb-2'>
-                    <Link to={'/reg'}>
-                      <button className='btn btn-circle bg-blue-400 min-h-7 h-9 w-20 hover:bg-blue-500 text-white border-none'>Add</button>
-                    </Link>
                     <button onClick={() => handleDelete(item.id)} className='btn btn-circle bg-red-500 min-h-7 h-9 w-20 hover:bg-red-700 text-white border-none'>Delete</button>
                   </div>
                 </div>
